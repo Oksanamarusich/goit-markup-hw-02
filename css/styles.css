@@ -1,3 +1,271 @@
-/* background E5E5E5 */
-/* logo  */
+body{
+    background-color:#FFFFFF;
+
+    color:#434455
+}
+.link{
+  text-decoration: none;
+}
+/**
+  |============================
+  | Header
+  |============================
+*/
+.header {
+    background-color: #E7E9FC;
+}
+.nav {
+}
+.header-logo-link {
+
+}
+.header-nav-list {
   
+}
+.header-nav-item {
+  
+}
+.header-nav-studio {
+  color:#2E2F42;
+  text-decoration: none;
+  
+
+}
+.header-nav-studio:hover {
+  color:#4D5AE5;
+}
+.header-nav-studio:focus {
+color: #4D5AE5;
+}
+.header-nav-portfolio {
+  color: #2E2F42;
+  text-decoration: none;
+}
+.header-nav-portfolio:hover {
+  color: #4D5AE5;
+}
+.header-nav-portfolio:focus {
+color: #4D5AE5;
+}
+
+.header-nav-contacts {
+  color: #2E2F42;
+  text-decoration: none;
+}
+.header-nav-contacts:hover {
+color: #4D5AE5
+}
+.header-nav-contacts:focus {
+  color: #4D5AE5;
+}
+.header-address {
+  color: #434455;
+}
+.header-address-list {
+  
+}
+.header-address-item {
+}
+.header-adress-mailto {
+  text-decoration: none;
+  color:#434455
+}
+.header-adress-mailto:hover {
+  color:#4D5AE5;
+}
+.header-adress-mailto:focus {
+  color: #4D5AE5;
+}
+ 
+  
+
+.header-address-tel {
+  text-decoration: none;
+  color: #434455
+}
+.header-address-tel:hover {
+  color: #4D5AE5;
+}
+.header-address-tel:focus {
+color: #4D5AE5;
+}
+/**
+  |============================
+  | Hero
+  |============================
+*/
+.section-hero {
+  bacground-color:
+  color:white;
+  background-color:#2E2F42;
+}
+
+.section-hero-h1 {
+  color:white;
+
+}
+
+.hero-button {
+  color:white;
+  background-color:#4D5AE5;
+
+}
+.hero-button:active {
+  color:#404BBF
+}
+/**
+  |============================
+  | section-advantages
+  |============================
+*/
+.section-advantages{
+  background-color:#E5E5E5;;
+  color:#434455;
+}
+.advantages-list {
+  background-color: white;
+    color: #434455;
+}
+
+.advantages-item {
+  background-color: white;
+    color: #434455;
+}
+
+.advantages-link {
+  background-color: white;
+    color: #2E2F42;
+}
+
+.advantages-descr {
+  background-color: white;
+  color: #434455;
+}
+/**
+  |============================
+  | section-work
+  |============================
+*/
+.section-work {
+
+}
+
+.section-work-h2 {
+  color:#2E2F42;
+}
+
+.section-work-list {
+  background-color: #E5E5E5;;
+  color:#2E2F42
+}
+
+.section-work-item {
+  
+
+}
+/**
+  |============================
+  | section-team
+  |============================
+*/
+
+.section-team {
+  background-color: #F4F4FD;
+}
+
+.section-team-h2 {
+  color:#2E2F42;
+}
+
+.section-team-list {
+  background-color: #FFFFFF;
+
+}
+
+.section-team-item {}
+
+.section-team-mark {
+  color:#2E2F42;
+}
+
+.section-team-descr {
+  color:#434455;
+}
+
+.section-team-tom {}
+
+.section-team-camilla {}
+
+.section-team-daniel {}
+/**
+  |============================
+  | footer
+  |============================
+*/
+.footer {
+  background-color:#2E2F42 ;
+  color:#F4F4FD
+}
+
+.footer-link {}
+
+.footer-descr {}
+
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
+
+.hero-portfolio {E5E5E5;
+}
+
+.hero-portfolio-list {
+
+}
+
+.hero-portfolio-item {
+  
+}
+.hero-portfolio-button {
+  background-color: #E7E9FC;
+    color: #4D5AE5;
+}
+.hero-portfolio-button:hover {
+  background-color: #4D5AE5;
+  color: white;
+} 
+.hero-portfolio-button:active {
+  color:#404BBF;
+}
+.hero-portfolio-button:focus {
+  color:#4D5AE5;
+}
+.portfolio-list {
+
+}
+
+.portfolio-item {}
+
+.portfolio-link {
+  color:#2E2F42;
+}
+
+
+.portfolio-h3 {
+  color: #2E2F42;
+}
+.portfolio-h3:hover {
+  color:#4D5AE5;
+}
+.portfolio-h3:active {
+  color:#404BBF;
+}
+.portfolio-h3:focus {
+  color:#4D5AE5;
+}
+
+
+.portfolio-descr {
+  color: #8E8F99;
+}
