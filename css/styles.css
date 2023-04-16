@@ -12,7 +12,6 @@
     --color-light-slate: #8e8f99;
     --color-cornflower: #e7e9fc;
     --light-text-color: #f4f4fd;
-    --color-navy-blue-modal: #2e2f42;
     --hero-background: #2e2f42;
     --primary-white-color:#ffffff;
     --color-dairy: #fcfcfc;
@@ -38,7 +37,9 @@ body {
     
 }
 .text-style-body {
-  
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 
@@ -49,6 +50,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
   
 }
 .section-dark {
@@ -66,22 +68,25 @@ body {
       text-align: center;
       text-transform: capitalize;
     color:var(--title-color);
+    letter-spacing: 0.02em;
     
     
 }
 
 
 
-.text-header-adress {
+.text-header-contacts {
   
   text-decoration: none;
   text-transform: none;
-  font-style: normal;
   color: var(--main-text-color);
 }
-.text-header-adress:hover,
-.text-header-adress:focus {
+.text-header-contacts:hover,
+.text-header-contacts:focus {
   color: var(--primary-accent-color);
+}
+.item {
+  font-style: normal;
 }
  
 .light-text-body {
@@ -95,15 +100,14 @@ body {
 
 
 .text-header {
-  
-  text-decoration: none;
+  font-weight: 500;
   color: var(--hero-background);
-
+text-decoration: none;
 }
 
 .text-header:hover ,
 .text-header:focus {
-  color: var(--primary-accent-color);
+  color: var(--secondary-accent-color);
   text-decoration: underline;
 }
 
@@ -118,6 +122,7 @@ body {
     background-color: var(--primary-accent-color);
     cursor: pointer;
     font-family: inherit;
+    line-height: 1.5;
 }
 
 .btn:hover,
@@ -179,13 +184,12 @@ body {
 
 
 .logo {
-    font-family: 'Raleway';
+    font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
     color: var(--primary-accent-color);
 
 
@@ -202,9 +206,10 @@ body {
 
 .list {
 list-style: none;
+
 }
 
-.visually-hidden {
+.hidden {
   position: absolute;
   width: 1px;
   height: 1px;
