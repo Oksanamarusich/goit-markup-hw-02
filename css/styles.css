@@ -7,7 +7,7 @@
    --primary-accent-color: #4d5ae5;
     --secondary-accent-color: #404bbf;
     --title-color: #2e2f42;
-    --color-green: #31d0aa;
+    --accent-green: #31d0aa;
     --main-text-color: #434455;
     --color-light-slate: #8e8f99;
     --color-cornflower: #e7e9fc;
@@ -37,6 +37,10 @@ body {
   
     
 }
+.text-style-body {
+  
+  color: var(--main-text-color);
+}
 
 .hero-title {
   
@@ -49,6 +53,9 @@ body {
 }
 .section-dark {
   background-color: var(--hero-background);
+}
+.section-light {
+  background-color: var(--light-text-color);
 }
 
 .secondary-title {
@@ -63,55 +70,39 @@ body {
     
 }
 
-.third-title {
-  
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--title-color);
-}
 
-.text-style-body {
+
+.text-header-adress {
   
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
   text-decoration: none;
   text-transform: none;
   font-style: normal;
   color: var(--main-text-color);
 }
-.text-style-body:hover,
-.text-style-body:focus {
+.text-header-adress:hover,
+.text-header-adress:focus {
   color: var(--primary-accent-color);
 }
  
 .light-text-body {
 
-  font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
     text-decoration: none;
     text-transform: none;
     color: var(--light-text-color);
+    
 }
 
 
 
-.text-style-body-medium {
+.text-header {
   
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
   text-decoration: none;
-  text-transform: none;
   color: var(--hero-background);
 
 }
-.text-style-body-medium:hover ,
-.text-style-body-medium:focus {
+
+.text-header:hover ,
+.text-header:focus {
   color: var(--primary-accent-color);
   text-decoration: underline;
 }
@@ -119,51 +110,42 @@ body {
 
 .btn {
   
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
     align-items: center;
     letter-spacing: 0.04em;
     color: var(--primary-white-color);
     background-color: var(--primary-accent-color);
     cursor: pointer;
-
+    font-family: inherit;
 }
 
-.btn:hover {
-  color: var(--primary-white-color);
-background-color: var(--secondary-accent-color); 
-  
-}
+.btn:hover,
 .btn:focus {
   color: var(--primary-white-color);
   background-color: var(--secondary-accent-color); 
+  
 }
-
+ 
 .btn-dark {
   
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--primary-accent-color);
     background-color: var(--light-text-color);
     cursor: pointer;
-    
+    font-family: inherit;
 
 }
 
-.btn-dark:hover {
-  background: var(--secondary-accent-color);
-  color: var(--primary-white-color);
-} 
+.btn-dark:hover,
 .btn-dark:focus {
   background: var(--secondary-accent-color);
   color: var(--primary-white-color);
-}
+} 
+
 
 .text-style-small-text {
   font-size: 12px;
@@ -178,14 +160,23 @@ background-color: var(--secondary-accent-color);
 
 .link {
   font-size: 12px;
-  font-family: "Roboto";
   font-weight: 400;
-  font-style: normal;
-  line-height: 16px;
+  line-height: 1.33;
   letter-spacing: 0.04em;
-  text-decoration: underline;
+  text-decoration: none;
   text-transform: none;
 }
+
+.third-title {
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+
 
 .logo {
     font-family: 'Raleway';
@@ -210,5 +201,19 @@ background-color: var(--secondary-accent-color);
 
 
 .list {
+list-style: none;
+}
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
