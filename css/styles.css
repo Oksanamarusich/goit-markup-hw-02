@@ -215,10 +215,11 @@ text-decoration: none;
 
 .list {
 list-style: none;
+text-decoration: none;
 
 }
 
-.hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
