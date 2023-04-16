@@ -78,7 +78,9 @@ body {
 }
 
 .text-header-contacts {
-  
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
   color: var(--main-text-color);
@@ -101,6 +103,9 @@ body {
 
 .text-header {
   font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   color: var(--hero-background);
 text-decoration: none;
 }
