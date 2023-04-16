@@ -73,7 +73,9 @@ body {
     
 }
 
-
+.contacts  {
+  font-style:normal;
+}
 
 .text-header-contacts {
   
@@ -83,11 +85,9 @@ body {
 }
 .text-header-contacts:hover,
 .text-header-contacts:focus {
-  color: var(--primary-accent-color);
+  color: var(--secondary-accent-color);
 }
-.item {
-  font-style: normal;
-}
+
  
 .light-text-body {
 
@@ -172,6 +172,9 @@ text-decoration: none;
   text-transform: none;
 }
 
+.item {
+  background-color: var(--primary-white-color);
+}
 .third-title {
 
   font-size: 20px;
