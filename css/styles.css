@@ -170,10 +170,7 @@ text-decoration: none;
 }
 
 .link {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.33;
-  letter-spacing: 0.04em;
+  
   text-decoration: none;
   text-transform: none;
 }
@@ -218,7 +215,7 @@ list-style: none;
 text-decoration: none;
 
 }
-c
+
  #hidden {
   position: absolute;
   width: 1px;
